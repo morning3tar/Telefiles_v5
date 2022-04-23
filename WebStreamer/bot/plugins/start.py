@@ -55,7 +55,7 @@ async def start(b, m):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [InlineKeyboardButton('📦 ربات اول', url='https://t.me/TelFiles_bot'), InlineKeyboardButton('👨🏻‍💻 پشتیبانی', url='https://t.me/Morning3tar_Bot')],
-                    [InlineKeyboardButton("📦 ربات دوم", url='https://t.me/TelFiles_bot2')],
+                    [InlineKeyboardButton("📦 ربات دوم", url='https://t.me/TelFiles2_bot')],
                     [InlineKeyboardButton("📢 کانال ربات", url='https://t.me/Telefiles_official')]
                 ]
             ),
