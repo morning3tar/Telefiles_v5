@@ -51,11 +51,11 @@ async def start(b, m):
                     disable_web_page_preview=True)
                 return
         await m.reply_text(
-            text='📤 برای دریافت لینک دانلود مستقیم فایل مورد نظر خودتون رو ارسال یا فوروارد کنید.\n⚠️ در صورت شلوغ بودن سرور از ربات اول یا سوم استفاده کنید.',
+            text='📤 برای دریافت لینک دانلود مستقیم فایل مورد نظر خودتون رو ارسال یا فوروارد کنید.\n⚠️ در صورت شلوغ بودن سرور از ربات اول یا دوم استفاده کنید.',
             reply_markup=InlineKeyboardMarkup(
                 [
                     [InlineKeyboardButton('📦 ربات اول', url='https://t.me/TelFiles_bot'), InlineKeyboardButton('👨🏻‍💻 پشتیبانی', url='https://t.me/Morning3tar_Bot')],
-                    [InlineKeyboardButton("📦 ربات سوم", url='https://t.me/TelFiles_bot3')],
+                    [InlineKeyboardButton("📦 ربات دوم", url='https://t.me/TelFiles_bot3')],
                     [InlineKeyboardButton("📢 کانال ربات", url='https://t.me/Telefiles_official')]
                 ]
             ),
